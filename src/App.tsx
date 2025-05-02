@@ -94,43 +94,6 @@ function App() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Nuestro Equipo</h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">Somos un equipo de expertos apasionados por crear soluciones de software excepcionales.</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <TeamMember 
-              image="assets/ds.jpg"
-              name="Damián Spinosa"
-              role="Back End Developer"
-              bio="Experto en infraestructura cloud y sistemas distribuidos con enfoque en rendimiento."
-            />
-            <TeamMember 
-              image="assets/lf.jpg"
-              name="Lucas Ferrario"
-              role="Front End Developer"
-              bio="Apasionado por crear interfaces hermosas e intuitivas con frameworks modernos."
-            />
-            <TeamMember 
-              image="assets/ah.jpg"
-              name="Andres Haehnel"
-              role="Arquitecto de Software"
-              bio="Con más de una década diseñando sistemas escalables para clientes empresariales."
-            />
-            <TeamMember 
-              image="assets/jv.jpg"
-              name="Julian Vera"
-              role="Diseñador UX"
-              bio="Combina investigación y creatividad para diseñar experiencias que deleitan y cautivan."
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials Section */}
       <section className="py-20 bg-slate-900 text-white">
         <div className="container mx-auto px-6">
